@@ -11,12 +11,6 @@ const ProjectsContainer = () => {
                 <div className="card">FOUR</div>
                 <div className="card">FIVE</div>
                 <div className="card">SIX</div>
-                <div className="card">SEVEN</div>
-                <div className="card">EIGHT</div>
-                <div className="card">NINE</div>
-                <div className="card">TEN</div>
-                <div className="card">ELEVEN</div>
-                <div className="card">TWELVE</div>
             </div>
         </div>
     );

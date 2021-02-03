@@ -3,7 +3,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Source Sans Pro', sans-serif;
-
 }
 
 code {
@@ -13,10 +12,9 @@ code {
 
 .main, .about, .projects, .blog, .contact {
   height: 100%;
-  width: 100%;
   min-height: 100vh;
-  min-width: 100vw;
   margin: 0;
+  padding: 15px;
 }
 
 .main h2, .about h2, .projects h2, .blog h2, .contact h2 {
@@ -98,16 +96,25 @@ code {
 
 .projects {
   background-color: lightpink;
+  border: 1px solid red;
+
+}
+
+.projects h2 {
+  text-align: center;
+  border: 1px solid red;
+
 }
 
 .cards {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0px auto;
   display: grid;
   grid-gap: 1rem;
 
   /* columns will automatically break when each one gets below 300px. */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  border: 1px solid red;
 }
 
 .card {
