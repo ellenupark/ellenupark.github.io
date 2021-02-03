@@ -14,7 +14,7 @@ code {
   height: 100%;
   min-height: 100vh;
   margin: 0;
-  padding: 15px;
+  padding: 50px;
 }
 
 .main h2, .about h2, .projects h2, .blog h2, .contact h2 {
@@ -96,22 +96,16 @@ code {
 
 .projects {
   background-color: lightpink;
-  border: 1px solid red;
-
 }
 
 .projects h2 {
   text-align: center;
-  border: 1px solid red;
-
 }
 
 .cards {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0px auto;
   display: grid;
-  grid-gap: 1rem;
-
   /* columns will automatically break when each one gets below 300px. */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   border: 1px solid red;
@@ -121,7 +115,9 @@ code {
   background-color: dodgerblue;
   color: white;
   padding: 1rem;
-  height: 4rem;
+  height: 12rem;
+  border: 1px solid red;
+
 }
 
 /* ------------ BLOG ------------ */
