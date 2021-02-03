@@ -1,13 +1,146 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main, .about, .projects, .blog, .contact {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+}
+
+.main h2, .about h2, .projects h2, .blog h2, .contact h2 {
+  margin: 0;
+}
+
+/* ------------ MAIN ------------ */
+
+.main {
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main p {
+  font-size: 36px;
+  width: 50%;
+  text-align: center;
+}
+
+.main p span {
+  font-weight: bold;
+}
+
+/* ------------ ABOUT ------------ */
+
+.about {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.about > div {
+  text-align: center;
+  flex: 0 50%;
+  border: red solid;
+  box-sizing:border-box;
+  margin: 0 auto;
+}
+
+.about > div p {
+  font-size: 20px;
+}
+
+.about img {
+  width: 65%;
+}
+
+/* ------------ SKILLS ------------ */
+
+.skills {
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.skills > div {
+  text-align: center;
+  flex: 0 50%;
+  border: red solid;
+  box-sizing:border-box;
+  margin: 0 auto;
+}
+
+/* ------------ PROJECTS ------------ */
+
+.projects {
+  background-color: lightpink;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+
+  /* columns will automatically break when each one gets below 300px. */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+}
+
+/* ------------ BLOG ------------ */
+
+.blog {
+  background-color: lightblue;
+}
+
+/* ------------ CONTACT ------------ */
+
+.contact {
+  background-color: lightpink;
+}
+
+/* ------------ ICONS ------------ */
+
+.icons {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+}
+
+.icons i {
+  font-size: 35px;
+}
+
+.icons p {
+  font-size: 12px;
+	padding: 0;
 }
