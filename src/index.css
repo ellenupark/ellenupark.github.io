@@ -14,7 +14,7 @@ code {
   height: 100%;
   min-height: 100vh;
   margin: 0;
-  padding: 50px;
+  padding: 0px;
 }
 
 .main h2, .about h2, .projects h2, .blog h2, .contact h2 {
@@ -24,20 +24,37 @@ code {
 /* ------------ MAIN ------------ */
 
 .main {
-  background-color: lightpink;
+  /* background-color: lightpink;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  overflow-x: hidden;
+  background: linear-gradient(45deg, #0d1011 0% 20%, #163486);
 }
 
-.main p {
+#intro p {
   font-size: 36px;
   width: 50%;
   text-align: center;
 }
 
-.main p span {
+#intro p span {
   font-weight: bold;
+}
+
+#intro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  z-index: 20;
+  color: white;
+  transform: scale(1.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ------------ ABOUT ------------ */
@@ -58,7 +75,6 @@ code {
 .about > div {
   text-align: center;
   flex: 0 50%;
-  border: red solid;
   box-sizing:border-box;
   margin: 0 auto;
 }
@@ -87,7 +103,6 @@ code {
 .skills > div {
   text-align: center;
   flex: 0 50%;
-  border: red solid;
   box-sizing:border-box;
   margin: 0 auto;
 }

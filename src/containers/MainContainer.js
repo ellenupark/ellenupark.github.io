@@ -1,9 +1,13 @@
 import React from 'react';
+import Canvas from '../components/Canvas'
 
 const Main = () => {
     return (
         <div className='main'>
-            <p>Hi there! I'm <span>Ellen Park</span>, a Brooklyn based Korean-American full-stack engineer.</p>
+            <Canvas />
+            <div id="intro">
+                <p>Hi there! I'm <span>Ellen Park</span>, a Brooklyn based Korean-American Full Stack Engineer.</p>
+            </div>
         </div>
     );
 };
