@@ -101,9 +101,7 @@ const Canvas = () => {
     }
 
     return(
-            <>
-                <canvas width={window.innerWidth} height={window.innerHeight}></canvas>
-            </>
+        <canvas width={window.innerWidth} height={window.innerHeight}></canvas>
     )
 }
 
