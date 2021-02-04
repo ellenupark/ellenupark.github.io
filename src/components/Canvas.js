@@ -76,9 +76,9 @@ const Canvas = () => {
         const lineArray = [];
 
         for (let i = 0; i < 100; i++) {
-            const start = { x: -100, y: 500 };
+            const start = { x: -150, y: 450 };
             const random = Math.random() - 0.5;
-            const unit = 25;
+            const unit = 50;
 
             lineArray.push(
                 new Line(
