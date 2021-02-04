@@ -29,7 +29,25 @@ code {
   justify-content: center;
   align-items: center; */
   overflow-x: hidden;
-  background: linear-gradient(45deg, #2d373a 0% 20%, lightpink);
+  background: linear-gradient(-45deg, #AC3B61, #BAB2B5, #123C69, #EDC7B7);
+  /* background: linear-gradient(-45deg, #dba54d, #70ebc8, #026670, #FCE181); */
+  /* background: linear-gradient(-45deg, #E7717D, #C2B9B0, #AFD275, #7E685A); */
+  /* background: linear-gradient(-45deg, #dba54d, #70ebc8, #026670, #FCE181); */
+  /* background: linear-gradient(-45deg, #41B3A3, #C38D95, #E8A87C, #E27D60); */
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 #intro p {
@@ -37,6 +55,7 @@ code {
   width: 50%;
   text-align: center;
   text-shadow: 2px 2px black;
+
 }
 
 #intro p span {
@@ -60,7 +79,8 @@ code {
 /* ------------ ABOUT ------------ */
 
 .about {
-  background-color: rgb(240, 239, 230);
+  /* background-color: #e9e5e3; */
+  background-color: #e7e7e7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +111,7 @@ code {
 /* ------------ SKILLS ------------ */
 
 .skills {
-  background-color: lightblue;
+  background-color: #e7e7e7;
   display: flex;
   flex-wrap: wrap;
 }
@@ -111,7 +131,7 @@ code {
 /* ------------ PROJECTS ------------ */
 
 .projects {
-  background-color: lightpink;
+    background-color: #e6e3e1;
 }
 
 .projects h2 {
@@ -143,7 +163,7 @@ code {
 /* ------------ BLOG ------------ */
 
 .blog {
-  background-color: lightblue;
+  background-color: #e7e7e7;
 }
 
 .blog h2 {
