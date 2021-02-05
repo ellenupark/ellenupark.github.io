@@ -90,43 +90,17 @@ ul {
   justify-content: center;
   flex-wrap: wrap;
   border-top: 5px solid lightblue;
-  height: 50% !important;
-  min-height: 50vh !important;
-
-}
-
-.about h2 {
-  display:flex;
-  align-items: flex-end;
-  justify-content: center;
-  width: 100%;
-  font-size: 54px;
-}
-
-.about div {
-  text-align: center;
-  box-sizing: border-box;
-  margin: 5% 5% 0 5%;
 }
 
 .about-portrait, .about-details {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.about-portrait {
+  box-sizing: border-box;
+  margin: 2% 5% 0 5%;
   min-width: 400px;
-  width: 35vw;
+  width: 35%;
+  display: inline-block;
 }
 
-.about-details {
-  flex-wrap: wrap;
-  min-width: 400px;
-  width: 35vw;
-}
-
-.about div p {
+.about-details p {
   font-size: 20px;
   text-align: left;
   width: 100%;
@@ -154,17 +128,20 @@ ul {
 
 .skills h3 {
   text-align: center;
+  margin-bottom: 0;
 }
 
 .skills .skills-list {
   text-align: center;
+  margin: 0 30px;
+
 }
 
 /* ------------ PROJECTS ------------ */
 
 .projects {
-  margin: 5%;
   text-align: center;
+  background-color: grey;
 }
 
 .projects h2 {
