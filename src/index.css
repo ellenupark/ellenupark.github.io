@@ -112,14 +112,13 @@ ul {
 .about div {
   text-align: center;
   box-sizing: border-box;
-  margin: 0 25px;
+  margin: 5%;
 }
 
 .about-portrait, .about-details {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 30px;
 }
 
 .about-portrait {

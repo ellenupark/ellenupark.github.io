@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";
 import BurgerMenu from "./BurgerMenu";
 import CollapseMenu from "./CollapseMenu";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 
 const Navbar = (props) => {
@@ -89,7 +89,7 @@ const FlexContainer = styled.div`
   margin: auto;
   padding: 0 2rem;;
   justify-content: center;
-  height: 5rem;
+  height: 3rem;
 
   @media (max-width: 768px) {
       justify-content: start;

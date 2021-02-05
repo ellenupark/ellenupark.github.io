@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { Link } from "react-scroll";
 import { useSpring, animated } from 'react-spring';
 
 const CollapseMenu = (props) => {
@@ -16,10 +16,51 @@ const CollapseMenu = (props) => {
       }}
       >
         <NavLinks>
-          <li><a href="/" onClick={props.handleNavbar}>link n1</a></li>
-          <li><a href="/" onClick={props.handleNavbar}>link n2</a></li>
-          <li><a href="/" onClick={props.handleNavbar}>link n3</a></li>
-          <li><a href="/" onClick={props.handleNavbar}>link n4</a></li>
+            <li>
+                <Link 
+                    onClick={props.handleNavbar}
+                    to="main" 
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >Home</Link>
+            </li>
+            <li>
+                <Link 
+                    onClick={props.handleNavbar}
+                    to="about" 
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >About</Link>
+            </li>
+            <li>
+                <Link 
+                    onClick={props.handleNavbar}
+                    to="projects" 
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >Projects</Link>
+            </li>
+            <li>
+                <Link 
+                    onClick={props.handleNavbar}
+                    to="blog" 
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >Blog</Link>
+            </li>
+            <li>
+                <Link 
+                    onClick={props.handleNavbar}
+                    to="contact" 
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >Contact</Link>
+            </li>
         </NavLinks>
       </CollapseWrapper>
     );
@@ -35,6 +76,7 @@ const CollapseWrapper = styled(animated.div)`
   top: 4.5rem;
   left: 0;
   right: 0;
+  z-index: 25;
 `;
 
 const NavLinks = styled.ul`
