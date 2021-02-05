@@ -6,7 +6,7 @@ const Main = () => {
         <div className='main'>
             <Canvas />
             <div id="intro">
-                <p>Hi there! I'm <span>Ellen Park</span>, a Brooklyn based Korean-American Full Stack Engineer.</p>
+                <p>Hi there! I'm <span class='bold color-change'>Ellen Park</span>, a Brooklyn based Korean-American Full Stack Engineer.</p>
             </div>
         </div>
     );

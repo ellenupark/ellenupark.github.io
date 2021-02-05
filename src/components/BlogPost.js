@@ -20,7 +20,6 @@ const BlogPost = (props) => {
       
 
     return (
-       <>
         <div className="card">
             <img src={props.article.thumbnail} alt="Blog Post"/>
             <h3>{props.article.title}</h3>
@@ -29,7 +28,6 @@ const BlogPost = (props) => {
                 {props.article.categories.map(category => <span>{category}</span>)}
             </div>
         </div>
-       </>
     );
 };
 
