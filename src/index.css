@@ -72,10 +72,28 @@ code {
   justify-content: center;
 }
 
+/* ------------ Navbar ------------ */
+
+ul {
+  padding-inline-start: 0;
+}
+
+
+/* #navbar {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  background-color: pink;
+  width: 100%;
+  position: fixed;
+} */
+
 /* ------------ ABOUT ------------ */
 
 .about {
-  background-color: #e7e7e7;
+  background-color: #252525;
+  color: #FFFFFF;
+  /* background-color: #e7e7e7; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
