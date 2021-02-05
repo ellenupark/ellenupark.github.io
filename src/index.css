@@ -140,22 +140,23 @@ ul {
 /* ------------ PROJECTS ------------ */
 
 .projects {
+  border-top: 2px solid #333333;  
   text-align: center;
-  background-color: grey;
+  background-color: #252525;
 }
 
 .projects h2 {
-  text-align: center;
   color: #fdcb6e;
   border-bottom: 1px solid #fdcb6e;
   display: inline-block;
-  margin: 0 auto 5% auto;
+  margin: 50px 0;
 }
 
 .cards {
   max-width: 1000px;
-  margin: 0px auto;
+  margin: 0 auto;
   display: grid;
+  padding: 0 25px;
   /* columns will automatically break when each one gets below 300px. */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
@@ -163,7 +164,6 @@ ul {
 .card {
   background-color: rgb(116, 199, 226);
   color: white;
-  padding: 1rem;
   height: 12rem;
 }
 
@@ -171,17 +171,15 @@ ul {
   object-fit: cover;
   width: 100%;
   height: 150px;
-  border-radius: 15px;
+  border-radius: 15px 15px 0 0;
 }
 
 /* ------------ PROJECT CARDS ------------ */
 
 .projects .card {
-    /* position: relative; */
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 
 #tsumego-solver, #learn-hwatu, #teachers-pet, #mad-lib-library, #pet-pals, #acnh-villager {
   background-position: center; 
@@ -230,41 +228,6 @@ ul {
     opacity: 1;
 }
 
-
-/* .default {
-    z-index: 10;
-} */
-/* 
-.hide {
-    opacity: 0.0;
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
-} */
-/* 
-.projects .card:hover {
-    display: none !important;
-    -webkit-transform: rotatex(360deg);
-     -moz-transform: rotatex(360deg);
-      -ms-transform: rotatex(360deg);
-          transform: rotatex(360deg);
-} */
-
-/* .default:hover .hide {
-    opacity: 1;
-}
-
-.default .hide {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
-
-
 #tsumego-solver .rotate-inner-front,  #tsumego-solver .rotate-inner-back {
     width: 100%;
     height: 100%;
@@ -273,16 +236,19 @@ ul {
     left: 0;
 } 
 
-
-
 /* ------------ BLOG ------------ */
 
 .blog {
-  background-color: #e7e7e7;
+  /* background-color: #e7e7e7; */
+  border-top: 2px solid #333333;  
+  text-align: center;
 }
 
 .blog h2 {
-  text-align: center;
+  color: #fdcb6e;
+  border-bottom: 1px solid #fdcb6e;
+  display: inline-block;
+  margin: 30px 0 10px 0;
 }
 
 .blog .cards {
@@ -298,7 +264,6 @@ ul {
   height: 18rem;
   text-align: left;
   position: relative;
-  padding: 10px;
   border-radius: 20px;
 }
 
@@ -308,12 +273,12 @@ ul {
 
 .blog .card h3 {
   font-weight: bold;
-  font-size: 20px;
-  margin: 5px 0px;
+  font-size: 15px;
+  margin: 0 5px;
 }
 
 .blog .card p {
-  margin-bottom: 5px;
+  margin: 5px 5px 0 5px;
   font-size: 12px;
 }
 
@@ -329,11 +294,20 @@ ul {
 .categories {
   position: absolute;
   bottom: 10px;
+  padding: 5px;
 }
 /* ------------ CONTACT ------------ */
 
 .contact {
-  background-color: lightpink;
+  border-top: 2px solid #333333;  
+  text-align: center;
+}
+
+.contact h2 {
+  color: #fdcb6e;
+  border-bottom: 1px solid #fdcb6e;
+  display: inline-block;
+  margin: 50px 0;
 }
 
 /* ------------ ICONS ------------ */
