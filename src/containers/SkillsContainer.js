@@ -3,7 +3,7 @@ import React from 'react';
 const SkillsContainer = () => {
     return (
         <div className='skills'>
-            <div>
+            <div className='skills-list'>
                 <h3>Languages</h3>
                 <div className="icons">
 					<i className="devicon-javascript-plain colored"></i>
@@ -22,7 +22,7 @@ const SkillsContainer = () => {
 					<p>CSS3</p>
 				</div>
             </div>
-            <div>
+            <div className='skills-list'>
                 <h3>Technologies</h3>
                 <div className="icons">
                     <i className="devicon-react-original colored"></i>

@@ -3,6 +3,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #252525;
+  color: #FFFFFF;
 }
 
 code {
@@ -78,16 +80,6 @@ ul {
   padding-inline-start: 0;
 }
 
-
-/* #navbar {
-  position: absolute;
-  top: 100vh;
-  left: 0;
-  background-color: pink;
-  width: 100%;
-  position: fixed;
-} */
-
 /* ------------ ABOUT ------------ */
 
 .about {
@@ -98,6 +90,9 @@ ul {
   justify-content: center;
   flex-wrap: wrap;
   border-top: 5px solid lightblue;
+  height: 50% !important;
+  min-height: 50vh !important;
+
 }
 
 .about h2 {
@@ -106,13 +101,12 @@ ul {
   justify-content: center;
   width: 100%;
   font-size: 54px;
-
 }
 
 .about div {
   text-align: center;
   box-sizing: border-box;
-  margin: 5%;
+  margin: 5% 5% 0 5%;
 }
 
 .about-portrait, .about-details {
@@ -153,31 +147,32 @@ ul {
 /* ------------ SKILLS ------------ */
 
 .skills {
-  background-color: #e7e7e7;
+  /* background-color: #e7e7e7; */
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.skills h2 {
-  width: 100%;
+.skills h3 {
   text-align: center;
 }
 
-.skills > div {
+.skills .skills-list {
   text-align: center;
-  flex: 0 50%;
-  box-sizing:border-box;
-  margin: 0 auto;
 }
 
 /* ------------ PROJECTS ------------ */
 
 .projects {
-    background-color: #e6e3e1;
+  margin: 5%;
+  text-align: center;
 }
 
 .projects h2 {
   text-align: center;
+  color: #fdcb6e;
+  border-bottom: 1px solid #fdcb6e;
+  display: inline-block;
+  margin: 0 auto 5% auto;
 }
 
 .cards {
@@ -211,23 +206,36 @@ ul {
 }
 
 
+#tsumego-solver, #learn-hwatu, #teachers-pet, #mad-lib-library, #pet-pals, #acnh-villager {
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 100%;
+  width: 100%;
+}
 
 #tsumego-solver {
-    background-image: url("./images/tsumego-solver.png") !important;
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    height: 100%;
-    width: 100%;
+  background-image: url("./images/tsumego-solver.png") !important;
 }
 
 #learn-hwatu {
-    background-image: url("./images/learn-hwatu.png") !important;
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    height: 100%;
-    width: 100%;
+  background-image: url("./images/learn-hwatu.png") !important;
+}
+
+#pet-pals {
+  background-image: url("./images/pet-pals.png") !important;
+}
+
+#mad-lib-library {
+  background-image: url("./images/mad-lib-library.png") !important;
+}
+
+#acnh-villager {
+  background-image: url("./images/acnh-villager.png") !important;
+}
+
+#teachers-pet {
+  background-image: url("./images/teachers-pet.png") !important;
 }
 
 .rotate-inner-back {

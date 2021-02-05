@@ -1,6 +1,10 @@
 import React from 'react';
 import TsumegoCard from '../components/projects/TsumegoCard'
 import LearnHwatuCard from '../components/projects/LearnHwatuCard'
+import TeachersPet from '../components/projects/TeachersPet'
+import PetPals from '../components/projects/PetPals'
+import MadLibLibrary from '../components/projects/MadLibLibrary'
+import AcnhVillager from '../components/projects/AcnhVillager'
 
 const ProjectsContainer = () => {
     return (
@@ -9,10 +13,10 @@ const ProjectsContainer = () => {
             <div className="cards">
                 <TsumegoCard />
                 <LearnHwatuCard />
-                <div className="card">THREE</div>
-                <div className="card">FOUR</div>
-                <div className="card">FIVE</div>
-                <div className="card">SIX</div>
+                <TeachersPet />
+                <PetPals />
+                <MadLibLibrary />
+                <AcnhVillager />
             </div>
         </div>
     );
