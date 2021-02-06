@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ecd6d511.chunk.css",
+    "main.js": "/static/js/main.8d4155d5.chunk.js",
+    "main.js.map": "/static/js/main.8d4155d5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1fb78f80.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1fb78f80.js.map",
+    "static/js/2.ca5adac1.chunk.js": "/static/js/2.ca5adac1.chunk.js",
+    "static/js/2.ca5adac1.chunk.js.map": "/static/js/2.ca5adac1.chunk.js.map",
+    "static/js/3.20e0b76a.chunk.js": "/static/js/3.20e0b76a.chunk.js",
+    "static/js/3.20e0b76a.chunk.js.map": "/static/js/3.20e0b76a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ecd6d511.chunk.css.map": "/static/css/main.ecd6d511.chunk.css.map",
+    "static/js/2.ca5adac1.chunk.js.LICENSE.txt": "/static/js/2.ca5adac1.chunk.js.LICENSE.txt",
+    "static/media/acnh-villager-details.ab148666.png": "/static/media/acnh-villager-details.ab148666.png",
+    "static/media/index.css": "/static/media/tsumego-solver.f60c0d73.png",
+    "static/media/learn-hwatu-details.cf46b80c.png": "/static/media/learn-hwatu-details.cf46b80c.png",
+    "static/media/mad-lib-library-details.c6ac3bac.png": "/static/media/mad-lib-library-details.c6ac3bac.png",
+    "static/media/pet-pals-details.fe0632ac.png": "/static/media/pet-pals-details.fe0632ac.png",
+    "static/media/portrait.b992e725.png": "/static/media/portrait.b992e725.png",
+    "static/media/teachers-pet-details.7ffb265a.png": "/static/media/teachers-pet-details.7ffb265a.png",
+    "static/media/tsumego-solver-details.373b2c96.png": "/static/media/tsumego-solver-details.373b2c96.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fb78f80.js",
+    "static/js/2.ca5adac1.chunk.js",
+    "static/css/main.ecd6d511.chunk.css",
+    "static/js/main.8d4155d5.chunk.js"
+  ]
+}
