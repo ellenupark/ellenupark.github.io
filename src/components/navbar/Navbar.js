@@ -104,7 +104,6 @@ const NavLinks = styled(animated.ul)`
 
   & a {
     color: #dfe6e9;
-    text-transform: uppercase;
     font-weight: 600;
     border-bottom: 1px solid transparent;
     margin: 0 1.5rem;
@@ -113,8 +112,8 @@ const NavLinks = styled(animated.ul)`
     cursor: pointer;
 
     &:hover {
-      color: #fdcb6e;
-      border-bottom: 1px solid #fdcb6e;
+      color: #A5F2F3;
+      border-bottom: 1px solid #A5F2F3;
     }
 
     @media (max-width: 768px) {
