@@ -22,7 +22,7 @@ const BlogContainer = () => {
         <div className='blog'>
             <h2>Blog</h2>
             <div className="cards">
-                {articles.map(article => <a href={article.link}><BlogPost article={article}/></a>)}
+                {articles.map(article => <a target="_blank" rel="noreferrer" href={article.link}><BlogPost article={article}/></a>)}
                 {/* <div className="card">ONE</div>
                 <div className="card">TWO</div>
                 <div className="card">THREE</div>
