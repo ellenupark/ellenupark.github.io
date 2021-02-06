@@ -9,7 +9,7 @@ const TsumegoCard = () => {
                     <h3>Tsumego Solver</h3>
                     <p>Improve your knowledge of the strategy board game Go by solving and creating practice problems.</p>
                     <div className='categories'>
-                        <span>React</span><span>Redux</span><span>Ruby on Rails</span><span>RESTful API</span>
+                        <span>React</span><span>Redux</span><span>Ruby on Rails</span><span>RESTful API</span><span>PostgreSQL</span>
                     </div>
                 </div>
             </div>

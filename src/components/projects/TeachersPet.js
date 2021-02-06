@@ -7,9 +7,9 @@ const TeachersPet = () => {
                 <div className="default rotate-inner-front" id="teachers-pet"></div>
                 <div className="rotate-inner-back">
                     <h3>Teacher's Pet</h3>
-                    <p>Something</p>
+                    <p>Teacher's Pet gives teachers the power to create customized flashcard activities and a fun way to interact with their students through flashcard activities.</p>
                     <div className='categories'>
-                        <span>Something</span>
+                        <span>React</span><span>Redux</span><span>Ruby on Rails</span><span>MySQL</span><span>Microsoft Azure</span><span>RESTful API</span>
                     </div>
                 </div>
             </div>

@@ -7,9 +7,9 @@ const MadLibLibrary = () => {
                 <div className="default rotate-inner-front" id="mad-lib-library"></div>
                 <div className="rotate-inner-back">
                     <h3>Mad Lib Library</h3>
-                    <p>Something</p>
+                    <p>Browse and share completed mad libs with fellow users.</p>
                     <div className='categories'>
-                        <span>Something</span>
+                        <span>Ruby</span><span>Sinatra</span><span>SQLite</span><span>Active Record</span>
                     </div>
                 </div>
             </div>
