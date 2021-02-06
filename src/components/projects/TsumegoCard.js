@@ -7,9 +7,9 @@ const TsumegoCard = () => {
                 <div className="default rotate-inner-front" id="tsumego-solver"></div>
                 <div className="rotate-inner-back">
                     <h3>Tsumego Solver</h3>
-                    <p>Something</p>
+                    <p>Improve your knowledge of the strategy board game Go by solving and creating practice problems.</p>
                     <div className='categories'>
-                        <span>Something</span>
+                        <span>React</span><span>Redux</span><span>Ruby on Rails</span><span>RESTful API</span>
                     </div>
                 </div>
             </div>

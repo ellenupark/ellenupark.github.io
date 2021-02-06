@@ -141,10 +141,8 @@ ul {
 
 .projects {
   border-top: 1px solid #d4d4d4;  
-  display: flex;  
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  position: relative;
 }
 
 .projects .cards {
@@ -155,7 +153,6 @@ ul {
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  padding: 0 25px;
   /* columns will automatically break when each one gets below 300px. */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
@@ -178,6 +175,7 @@ ul {
 .projects .card {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 #tsumego-solver, #learn-hwatu, #teachers-pet, #mad-lib-library, #pet-pals, #acnh-villager {
@@ -186,6 +184,11 @@ ul {
   background-size: cover; 
   height: 100%;
   width: 100%;
+}
+
+.projects .card p {
+  font-size: 14px;
+  padding: 0 5px;
 }
 
 #tsumego-solver {
@@ -212,28 +215,47 @@ ul {
   background-image: url("./images/teachers-pet.png") !important;
 }
 
+.rotate-inner-front {
+  transition: visibility 1s;
+  opacity: 1;
+  visibility: visible;
+}
+
 .rotate-inner-back {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .rotate:hover .rotate-inner-front {
-    display: none;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .rotate:hover .rotate-inner-back {
-    visibility: visible;
-    opacity: 1;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
 }
 
-#tsumego-solver .rotate-inner-front,  #tsumego-solver .rotate-inner-back {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-} 
+.rotate:hover .rotate-inner-back h3 {
+  margin: 0;
+}
+
+.rotate:hover .rotate-inner-back span {
+  background-color: #cec0c5;
+  font-size: 10px;
+  margin: 5px;
+  padding: 3px 8px;
+  background-color: #cec0c5;
+  border-radius: 25px;
+}
+
 
 /* ------------ BLOG ------------ */
 
@@ -285,15 +307,17 @@ ul {
 }
 
 .categories {
-  position: absolute;
-  bottom: 10px;
-  padding: 5px;
+  position: relative;
+  bottom: 2px;
 }
 /* ------------ CONTACT ------------ */
 
 .contact {
   border-top: 1px solid #d4d4d4;  
-  text-align: center;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ------------ ICONS ------------ */
