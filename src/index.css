@@ -329,6 +329,7 @@ ul {
 
 .contact p {
   font-size: 36px;
+  text-align: center;
 }
 
 .contact-button {
@@ -369,8 +370,11 @@ ul {
 .social-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
   margin: 30px;
+}
+
+.social-links a {
+  margin: 15px;
 }
 
 i {
