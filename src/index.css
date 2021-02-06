@@ -397,9 +397,16 @@ i {
   .about > div {
     width: 100%;
     min-width: 0;
-
   }
 
+  .blog .cards{
+    /* columns will automatically break when each one gets below 300px. */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .blog .card {
+    height: 20em;
+  }
 }
 
 /* ------------ MODAL ------------ */
@@ -423,6 +430,7 @@ i {
   backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
   -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
   padding: 0 60px;
+  overflow: scroll;
 }
 
 .modal h3 {
@@ -434,9 +442,10 @@ i {
 }
 
 .modal img {
-  max-height: 40%;
-  max-width: 60%;
+  object-fit: contain;
   border-radius: 10px;
+  max-height: 40%;
+  max-width: 80%;
 }
 
 .modal i {
