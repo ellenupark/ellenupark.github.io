@@ -292,6 +292,7 @@ ul {
   position: relative;
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #86a0bb;
 }
 
 .card a:hover, a:visited, a:link, a:active {
@@ -314,7 +315,7 @@ ul {
   font-size: 10px;
   margin: 5px;
   padding: 3px 8px;
-  background-color: #cec0c5;
+  background-color: #a4acb6;
   border-radius: 25px;
 }
 
