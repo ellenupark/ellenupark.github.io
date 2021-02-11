@@ -22,13 +22,10 @@ const BlogContainer = () => {
         <div className='blog'>
             <h2>Blog</h2>
             <div className="cards">
-                {articles.map(article => <a target="_blank" rel="noreferrer" href={article.link}><BlogPost article={article}/></a>)}
-                {/* <div className="card">ONE</div>
-                <div className="card">TWO</div>
-                <div className="card">THREE</div>
-                <div className="card">FOUR</div>
-                <div className="card">FIVE</div>
-                <div className="card">SIX</div> */}
+                {React.Children.toArray(
+                    articles.map(article => <a target="_blank" rel="noreferrer" href={article.link}><BlogPost article={article}/></a>)
+                )
+                }
             </div>
         </div>
     );

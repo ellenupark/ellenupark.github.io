@@ -25,7 +25,9 @@ const BlogPost = (props) => {
             <h3>{props.article.title}</h3>
             <p>{formatDate(props.article.pubDate)}</p>
             <div className='categories'>
-                {props.article.categories.map(category => <span>{category}</span>)}
+                {React.Children.toArray(
+                    props.article.categories.map(category => <span>{category}</span>)
+                )}
             </div>
         </div>
     );
