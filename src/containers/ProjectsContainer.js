@@ -30,24 +30,24 @@ const ProjectsContainer = () => {
                     <TsumegoCard toggle={e => setToggleTsumego(!toggleTsumego)}/>
                     <TsumegoSolverDetails toggleStatus={toggleTsumego} toggle={e => setToggleTsumego(!toggleTsumego)} />
                 </div>
-                <div onClick={e => setToggleHwatu(!toggleHwatu)}>
-                    <LearnHwatuCard />
+                <div>
+                    <LearnHwatuCard toggle={e => setToggleHwatu(!toggleHwatu)} />
                     <LearnHwatuDetails toggleStatus={toggleHwatu} toggle={e => setToggleHwatu(!toggleHwatu)} />
                 </div>
-                <div onClick={e => setToggleTeachers(!toggleTeachers)}>
-                    <TeachersPet />
+                <div>
+                    <TeachersPet toggle={e => setToggleTeachers(!toggleTeachers)} />
                     <TeachersPetDetails toggleStatus={toggleTeachers} toggle={e => setToggleTeachers(!toggleTeachers)} />
                 </div>
-                <div onClick={e => setTogglePetPals(!togglePetPals)}>
-                    <PetPals />
+                <div>
+                    <PetPals toggle={e => setTogglePetPals(!togglePetPals)} />
                     <PetPalsDetails toggleStatus={togglePetPals} toggle={e => setTogglePetPals(!togglePetPals)} />
                 </div>
-                <div onClick={e => setToggleMadLibs(!toggleMadLibs)}>
-                    <MadLibLibrary />
+                <div>
+                    <MadLibLibrary toggle={e => setToggleMadLibs(!toggleMadLibs)} />
                     <MadLibLibraryDetails toggleStatus={toggleMadLibs} toggle={e => setToggleMadLibs(!toggleMadLibs)} />
                 </div>
-                <div onClick={e => setToggleAcnh(!toggleAcnh)}>
-                    <AcnhVillager />
+                <div>
+                    <AcnhVillager  toggle={e => setToggleAcnh(!toggleAcnh)} />
                     <AcnhVillagerDetails toggleStatus={toggleAcnh} toggle={e => setToggleAcnh(!toggleAcnh)} />
                 </div>
             </div>
