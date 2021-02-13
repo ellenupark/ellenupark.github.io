@@ -1,11 +1,11 @@
 import React from 'react';
 
-const PetPals = () => {
+const PetPals = (props) => {
     return (
         <>
             <div className="card rotate">
                 <div className="default rotate-inner-front" id="pet-pals"></div>
-                <div className="rotate-inner-back">
+                <div onClick={props.toggle} className="rotate-inner-back">
                     <h3>Pet Pals</h3>
                     <p>Connect with dog owners and arrange playdates for your dogs.</p>
                     <div className='categories'>

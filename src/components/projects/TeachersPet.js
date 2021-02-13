@@ -1,11 +1,11 @@
 import React from 'react';
 
-const TeachersPet = () => {
+const TeachersPet = (props) => {
     return (
         <>
             <div className="card rotate">
                 <div className="default rotate-inner-front" id="teachers-pet"></div>
-                <div className="rotate-inner-back">
+                <div onClick={props.toggle} className="rotate-inner-back">
                     <h3>Teacher's Pet</h3>
                     <p>Teacher's Pet gives teachers the power to create customized flashcard activities and a fun way to interact with their students through flashcard activities.</p>
                     <div className='categories'>

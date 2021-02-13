@@ -1,11 +1,11 @@
 import React from 'react';
 
-const MadLibLibrary = () => {
+const MadLibLibrary = (props) => {
     return (
         <>
             <div className="card rotate">
                 <div className="default rotate-inner-front" id="mad-lib-library"></div>
-                <div className="rotate-inner-back">
+                <div onClick={props.toggle} className="rotate-inner-back">
                     <h3>Mad Lib Library</h3>
                     <p>Browse and share completed mad libs with fellow users.</p>
                     <div className='categories'>
