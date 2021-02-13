@@ -26,8 +26,8 @@ const ProjectsContainer = () => {
         <div className='projects'>
             <h2>Projects</h2>
             <div className="cards">
-                <div onClick={e => setToggleTsumego(!toggleTsumego)}>
-                    <TsumegoCard />
+                <div>
+                    <TsumegoCard toggle={e => setToggleTsumego(!toggleTsumego)}/>
                     <TsumegoSolverDetails toggleStatus={toggleTsumego} toggle={e => setToggleTsumego(!toggleTsumego)} />
                 </div>
                 <div onClick={e => setToggleHwatu(!toggleHwatu)}>

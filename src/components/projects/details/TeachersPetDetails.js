@@ -18,7 +18,7 @@ const TeachersPetDetails = (props) => {
 				<a href="https://www.youtube.com/watch?v=N2XwgLc-E0Y&feature=emb_imp_woyt"><i className="fab fa-youtube fa-3x"></i></a>
 				<a href="https://devpost.com/software/techtogether-seattle"><i className="fas fa-external-link-alt fa-3x"></i></a>
             </div>
-            <div onClose={props.toggle} className="close"></div>
+            <div onClick={props.toggle} className="close"></div>
         </div>
     )
 };

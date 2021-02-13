@@ -13,7 +13,7 @@ const AcnhVillagerDetails = (props) => {
             <div>
                 <a href="https://github.com/ellenupark/acnh_villager"><i className="fab fa-github fa-3x"></i></a>
             </div>
-            <div onClose={props.toggle} className="close"></div>
+            <div onClick={props.toggle} className="close"></div>
         </div>
     )
 };

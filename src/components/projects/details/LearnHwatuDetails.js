@@ -17,7 +17,7 @@ const LearnHwatuDetails = (props) => {
 				<a href="https://www.youtube.com/watch?v=Xey2mvYl8RU"><i className="fab fa-youtube fa-3x"></i></a>
 				<a href="https://learn-hwatu.herokuapp.com"><i className="fas fa-external-link-alt fa-3x"></i></a>
             </div>
-            <div onClose={props.toggle} className="close"></div>
+            <div onClick={props.toggle} className="close"></div>
         </div>
     )
 };

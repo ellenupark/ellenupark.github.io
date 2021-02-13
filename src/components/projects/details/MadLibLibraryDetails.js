@@ -18,7 +18,7 @@ const MadLibLibraryDetails = (props) => {
 				<a href="https://www.youtube.com/watch?v=G8yLC63dcd0"><i className="fab fa-youtube fa-3x"></i></a>
 				<a href="https://mad-lib-library.herokuapp.com/"><i className="fas fa-external-link-alt fa-3x"></i></a>
             </div>
-            <div onClose={props.toggle} className="close"></div>
+            <div onClick={props.toggle} className="close"></div>
         </div>
     )
 };

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const TsumegoCard = () => {
+const TsumegoCard = (props) => {
     return (
         <>
             <div className="card rotate">
                 <div className="default rotate-inner-front" id="tsumego-solver"></div>
-                <div className="rotate-inner-back">
+                <div onClick={props.toggle} className="rotate-inner-back">
                     <h3>Tsumego Solver</h3>
                     <p>Improve your knowledge of the strategy board game Go by solving and creating practice problems.</p>
                     <div className='categories'>
