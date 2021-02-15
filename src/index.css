@@ -360,6 +360,15 @@ ul {
 .contact-button:hover{
 	background-color:#4095c6;
 }
+
+.contact i {
+  color: #dadada;
+}
+
+i:hover {
+  color: #c2c2c2;
+}
+
 /* ------------ ICONS ------------ */
 
 .icons {
@@ -387,12 +396,8 @@ ul {
 }
 
 i {
-  color: #dadada;
+  color: #000000;
   font-size: 4em !important;
-}
-
-i:hover {
-  color: #c2c2c2;
 }
 
 @media only screen 
