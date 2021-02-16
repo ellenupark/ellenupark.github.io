@@ -365,8 +365,12 @@ ul {
   color: #dadada;
 }
 
-i:hover {
-  color: #c2c2c2;
+.fa-linkedin {
+  color: #0e76a8 !important;
+}
+
+.fa-github {
+  color: #837e7e !important;
 }
 
 /* ------------ ICONS ------------ */
