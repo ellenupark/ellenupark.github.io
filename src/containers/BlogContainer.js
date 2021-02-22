@@ -14,7 +14,7 @@ const BlogContainer = () => {
             .get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ellen-park?t=1612391274')
             .then(({data}) => data)
             .then(posts => {
-                setArticles(posts.items.slice(0, 7))
+                setArticles(posts.items.slice(0, 6))
             })
     }
 
