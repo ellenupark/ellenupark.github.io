@@ -139,7 +139,6 @@ ul {
 .skills .skills-list {
   text-align: center;
   margin: 0 30px;
-
 }
 
 /* ------------ PROJECTS ------------ */
@@ -480,12 +479,17 @@ ul {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+  .skills {
+    width: 100%;
+  }
+
   .skills-list i {
     font-size: 35px;
   }
 
   .skills .skills-list {
     margin: 0;
+    width: 50%;
   }
 
 }
