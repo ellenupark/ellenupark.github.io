@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.417038e6.chunk.css",
+    "main.css": "/static/css/main.5dfe1e04.chunk.css",
     "main.js": "/static/js/main.30e02e7d.chunk.js",
     "main.js.map": "/static/js/main.30e02e7d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1fb78f80.js",
@@ -10,7 +10,7 @@
     "static/js/3.20e0b76a.chunk.js": "/static/js/3.20e0b76a.chunk.js",
     "static/js/3.20e0b76a.chunk.js.map": "/static/js/3.20e0b76a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.417038e6.chunk.css.map": "/static/css/main.417038e6.chunk.css.map",
+    "static/css/main.5dfe1e04.chunk.css.map": "/static/css/main.5dfe1e04.chunk.css.map",
     "static/js/2.ca5adac1.chunk.js.LICENSE.txt": "/static/js/2.ca5adac1.chunk.js.LICENSE.txt",
     "static/media/acnh-villager-details.ab148666.png": "/static/media/acnh-villager-details.ab148666.png",
     "static/media/index.css": "/static/media/tsumego-solver.f60c0d73.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.1fb78f80.js",
     "static/js/2.ca5adac1.chunk.js",
-    "static/css/main.417038e6.chunk.css",
+    "static/css/main.5dfe1e04.chunk.css",
     "static/js/main.30e02e7d.chunk.js"
   ]
 }
