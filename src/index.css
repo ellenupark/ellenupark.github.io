@@ -399,31 +399,12 @@ ul {
   margin: 15px;
 }
 
-i {
+.skills-list i {
   color: #000000;
-  font-size: 4em !important;
+  font-size: 4em;
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
 
-  .about > div {
-    width: 100%;
-    min-width: 0;
-  }
-
-  .blog .cards{
-    /* columns will automatically break when each one gets below 300px. */
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-
-  .blog .card {
-    height: 20em;
-  }
-}
 
 /* ------------ MODAL ------------ */
 
@@ -492,4 +473,19 @@ i {
 }
 .close:after {
   transform: rotate(-45deg);
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .skills-list i {
+    font-size: 35px;
+  }
+
+  .skills .skills-list {
+    margin: 0;
+  }
+
 }
