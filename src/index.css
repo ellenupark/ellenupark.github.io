@@ -492,4 +492,7 @@ ul {
     width: 50%;
   }
 
+  .about-portrait, .about-details {
+    min-width: 350px;
+  }
 }
