@@ -447,6 +447,7 @@ ul {
 .modal i {
   font-size: 36px !important;
   margin: 10px 25px;
+  color: #000000;
 }
 .close {
   position: absolute;
