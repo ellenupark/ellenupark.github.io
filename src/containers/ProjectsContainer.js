@@ -24,7 +24,7 @@ const ProjectsContainer = () => {
 
     return (
         <div className='projects'>
-            <h2>Projects</h2>
+            <h2 className="container-header">Projects</h2>
             <div className="cards">
                 <div>
                     <TsumegoCard toggle={e => setToggleTsumego(!toggleTsumego)}/>
