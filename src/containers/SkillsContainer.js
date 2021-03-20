@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const SkillsContainer = () => {
     return (
@@ -45,7 +46,7 @@ const SkillsContainer = () => {
 					<p>PostgreSQL</p>
 				</div>
                 <div className="icons">
-                <i className="devicon-bootstrap-plain colored"></i>
+                    <i className="devicon-bootstrap-plain colored"></i>
 					<p>Bootstrap</p>
 				</div>
             </div>

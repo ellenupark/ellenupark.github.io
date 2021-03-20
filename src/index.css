@@ -441,7 +441,7 @@ ul {
 
 .icons {
   display: inline-block;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 20px;
 }
 
 .icons i {
@@ -465,7 +465,7 @@ ul {
 
 .skills-list i {
   color: #000000;
-  font-size: 4em;
+  font-size: 2.5em;
 }
 
 
@@ -547,18 +547,34 @@ ul {
 
   .skills {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .skills-list i {
-    font-size: 35px;
+    font-size: 25px;
   }
 
+  .skills-list h3 {
+    text-align: left;
+  }
   .skills .skills-list {
     margin: 0;
     width: 50%;
+    min-width: 350px;
+    text-align: left;
+
+
   }
 
   .about-portrait, .about-details {
     min-width: 350px;
+  }
+
+  .icons {
+    margin: 10px 30px 10px 0;
+    text-align: center;
   }
 }
