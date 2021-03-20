@@ -29,9 +29,12 @@ code {
 
 .main {
   overflow-x: hidden;
-  background: linear-gradient(-45deg, #AC3B61, #a5969c, #123C69, #eca88b);
+  background: linear-gradient(-45deg, #00203F, #35506b);
+
+  /* background: linear-gradient(-45deg, #6e7582, #046582, #bb8082); */
+  /* background: linear-gradient(-45deg, #AC3B61, #a5969c, #123C69, #eca88b); */
 	background-size: 400% 400%;
-	animation: gradient 25s ease infinite;
+	animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
@@ -46,21 +49,6 @@ code {
 	}
 }
 
-#intro p {
-  font-size: 36px;
-  width: 50%;
-  text-align: center;
-  text-shadow: 2px 2px black;
-
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.color-change {
-  color: #ff5277;
-}
 
 #intro {
   position: absolute;
@@ -68,12 +56,42 @@ code {
   left: 0;
   width: 100vw;
   height: 100vh;
-  text-align: center;
   z-index: 20;
-  color: white;
+  color: #d6e9e0;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+#intro p {
+  font-size: 26px;
+  margin: 0 0 0 3px;
+}
+
+#intro h2 {
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+/* #intro p {
+  font-size: 36px;
+  display: block;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  flex-basis: 100%;
+  border: 1px solid red;
+
+} */
+
+.color-change {
+  color: #65d3b7;
+  font-size: 68px;
 }
 
 /* ------------ Navbar ------------ */
@@ -89,36 +107,55 @@ ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border-top: 5px solid #d4d4d4;
+  /* border-top: 5px solid #d4d4d4; */
 }
 
 .about-portrait, .about-details {
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   margin: 2% 5% 0 5%;
   min-width: 400px;
   width: 35%;
-  display: inline-block;
+  display: inline-block; */
+  flex-basis: 40%;
+  min-width: 400px;
+  padding-top: 35px;
 }
 
 .about-details {
   display: flex;
   justify-content: center;
   flex-direction: column;
+
 }
 
 .about-details p {
-  font-size: 20px;
+  font-size: 16px;
   text-align: left;
   width: 100%;
+  margin: 15px 0 0 0;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.71429;
+  font-weight: 500;
+  letter-spacing: .02em;
 }
 
 .about div p span {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
+  letter-spacing: 0;
+
+}
+
+.about-portrait {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 500px;
+
 }
 
 .about img {
-  width: 100%;
+  width: 65%;
   border-radius: 50px;
   
 }
@@ -168,7 +205,7 @@ ul {
 
 .card {
   cursor: pointer;
-  background-color: #86a0bb;
+  background-color: #233c55;
   color: white;
   height: 12rem;
 }
@@ -258,7 +295,7 @@ ul {
 }
 
 .rotate:hover .rotate-inner-back span {
-  background-color: #a4acb6;
+  background-color: #5e758f;
   font-size: 10px;
   margin: 2px 5px;
   padding: 3px 8px;
@@ -281,7 +318,7 @@ ul {
 }
 
 .blog .card:hover {
-  background-color: #7c93ac;
+  background-color: #58aa96;
 }
 
 .blog .card {
@@ -290,7 +327,7 @@ ul {
   position: relative;
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background-color: #86a0bb;
+  background-color: #5db39d;
 }
 
 .card a:hover, a:visited, a:link, a:active {
@@ -313,7 +350,7 @@ ul {
   font-size: 10px;
   margin: 5px;
   padding: 3px 8px;
-  background-color: #a4acb6;
+  background-color: #6ca093;
   border-radius: 25px;
 }
 
@@ -327,7 +364,7 @@ ul {
   color: #dadada;
   height: 100%;
   min-height: 60vh;
-  background-color: #2f3135;
+  background-color: #00203F;
   /* background-color: #15191d; */
   border-top: 5px solid #d4d4d4;
   display: flex;  
@@ -350,15 +387,15 @@ ul {
 	text-decoration:none;
 	font-family:'Roboto',sans-serif;
 	font-weight:300;
-	color:#FFFFFF;
-	background-color:#4eb5f1;
+	color:#000000;
+	background-color:#89e6bc;
 	text-align:center;
 	transition: all 0.2s;
   border: none;
 }
 	
 .contact-button:hover{
-	background-color:#4095c6;
+	background-color:#6cd8a7;
 }
 
 .social-links {
