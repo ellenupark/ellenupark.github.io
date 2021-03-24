@@ -40,7 +40,7 @@ code {
 
 .main {
   overflow-x: hidden;
-  background: linear-gradient(-45deg, #00203F, #35506b);
+  background: linear-gradient(-45deg, #006b79, #003468, #00203F);
 
   /* background: linear-gradient(-45deg, #6e7582, #046582, #bb8082); */
   /* background: linear-gradient(-45deg, #AC3B61, #a5969c, #123C69, #eca88b); */
